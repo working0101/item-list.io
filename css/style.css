@@ -26,6 +26,7 @@ h1 {
     cursor:pointer;
     user-select: none;  
     position: relative;
+    line-height: 1.8;
   }
   
   
