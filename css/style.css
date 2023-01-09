@@ -93,3 +93,14 @@ h1 {
   th {
     height: 50px;
   }
+
+  @media  (max-width: 799px) {
+    th {
+      font-size: 12px;
+    }
+    td {
+      font-size: 10px;
+    }
+  }
+
+  
