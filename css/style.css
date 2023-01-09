@@ -26,7 +26,6 @@ h1 {
     cursor:pointer;
     user-select: none;  
     position: relative;
-    line-height: 1.8;
   }
   
   
@@ -94,13 +93,16 @@ h1 {
   th {
     height: 50px;
   }
+  td {
+    line-height: 2;
+  }
 
   @media  (max-width: 799px) {
     th {
-      font-size: 12px;
+      font-size: 14px;
     }
     td {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 
