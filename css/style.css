@@ -3,8 +3,12 @@ body {
 }
 
 #he {
-  width: 100%;  
-  border:solid  4px rgb(125, 125, 125);
+  display: block;
+  width: 250px;  
+  border:solid  3px slategray ;
+  margin: 20px auto;
+  border-radius: 15%;
+  
 }
 
 
@@ -15,6 +19,7 @@ h1 {
   margin-bottom: 16px;
   background-color: #fff;
   border: solid black 1px;
+  user-select: none;
   }
   
   dl {
