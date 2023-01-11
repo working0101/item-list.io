@@ -1,16 +1,18 @@
 body {
   background-color: #eee;
 }
-
-#he {
-  display: block;
-  width: 250px;  
-  border:solid  3px slategray ;
-  margin: 20px auto;
-  border-radius: 15%;
-  
+#title {
+  display: flex;
+  padding: 0 ;
+  /* border: solid red 1px; */
 }
 
+.titlePic {
+  width: calc(100% / 4);  
+  border:solid  3px slategray ;
+  margin: 10px auto;
+  border-radius: 15%;
+}
 
 h1 {
   font-size: 24px;
