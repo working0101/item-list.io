@@ -3,16 +3,17 @@ body {
 }
 #title {
   display: flex;
-  padding: 0 ;
   /* border: solid red 1px; */
 }
 
 .titlePic {
-  width: calc(100% / 4);  
-  border:solid  3px slategray ;
+  width: calc(100% / 3.2);  
   margin: 10px auto;
+  border:solid  3px slategray ;
   border-radius: 15%;
 }
+
+
 
 h1 {
   font-size: 24px;
@@ -23,7 +24,15 @@ h1 {
   border: solid black 1px;
   user-select: none;
   }
-  
+ 
+  h3 {
+    text-align: center;
+  }
+  #pear {
+    background-color: bisque;
+    width: 60%;
+    margin: 0 auto 10px;
+  }
   dl {
     margin: 0;
     background-image: url();
