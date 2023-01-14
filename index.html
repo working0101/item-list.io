@@ -13,28 +13,38 @@
 </head>
 
 <body>
-  <div id="title">
-    <img src="img/ももpic.jpg" alt="写真" class="titlePic">
-    <img src="img/苺.jpg" alt="写真" class="titlePic">
-    <img src="img/バナナ.jpg" alt="写真" class="titlePic">
-  </div>
+  <main>
+    <img src="img/ももpic.jpg" alt="写真" width="600" id="main-imge">
+    
+    <div class="continer1">
+      <button id="prev">←</button>
+      <button id="next">→</button>
+    </div>
+      
+     <div class="continer1">
+      <img src="img/ももpic.jpg" alt="写真" class="titlePic active">
+      <img src="img/苺.jpg" alt="写真" class="titlePic">
+      <img src="img/バナナ.jpg" alt="写真" class="titlePic">
+    </div>
+  </main>
   <h1>商品画像&加工一覧</h1>
-
-  <h3 id="pear">梨-pear-</h3>
-  <dl>
-    <div>
-      <dt>20世紀梨</dt>
-      <dd>
-        <div class="continer">
-          <img src="img/20世紀2P.JPG" alt="画像">
-          <table border="1" width="600px" hight="300px">
-            <tr>
-              <th>サイズ</th>
-              <th>トレー</th>
-              <th>キャップ</th>
-            </tr>
-            <tr>
-              <td align="center">32玉</td>
+  
+  <section>
+    <h3 id="pear">梨-pear-</h3>
+    <dl>
+      <div>
+        <dt>20世紀梨</dt>
+        <dd>
+          <div class="continer">
+            <img src="img/20世紀2P.JPG" alt="画像">
+            <table border="1" width="600px" hight="300px">
+              <tr>
+                <th>サイズ</th>
+                <th>トレー</th>
+                <th>キャップ</th>
+              </tr>
+              <tr>
+                <td align="center">32玉</td>
               <td align="center">レジーム <br> M緑</td>
               <td align="center">白11</td>
             </tr>
@@ -151,13 +161,15 @@
           </table>
         </div>
       </dd>
-    </div>
-
-
+    </div>  
   </dl>
+</section>
+<section>
   <h3 id="Strawberry">苺-Strawberry-</h3>
 
-  <script src="js/main.js"></script>
+</section>
+  
+<script src="js/main.js"></script>
 </body>
 
 </html>

@@ -1,20 +1,57 @@
-body {
+@charset "utf-8";
+
+body  {
   background-color: #eee;
 }
 
-#title {
-  display: flex;
-  /* border: solid red 1px; */
+main  {
+  width: 600px;
+  margin: 0 auto;
+  background-color: pink;
 }
+#main-imge {
+  height: 400px;
+}
+img {
+  vertical-align: bottom;
+}
+
+button {
+  all:unset;
+  width: calc(100% /2);
+  border: 1px solid gray;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  
+}
+
+.continer1 {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  
+}
+/* .title {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  
+} */
 
 .titlePic {
-  width: calc(100% / 3.2);
-  margin: 10px auto;
+  width: calc( (100% - 16px) / 3 );
+  cursor: pointer;
+  opacity: .4;
   border: solid 3px slategray;
   border-radius: 15%;
+  box-sizing: border-box;
+
 }
 
-
+.active {
+  opacity: 1;
+}
 
 h1 {
   font-size: 24px;
