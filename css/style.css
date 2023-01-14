@@ -5,12 +5,12 @@ body  {
 }
 
 main  {
-  width: 400px;
+  width: 360px;
   margin: 0 auto;
   background-color: pink;
 }
 #main-imge {
-  height: 266px;
+  height: 240px;
 }
 img {
   vertical-align: bottom;
