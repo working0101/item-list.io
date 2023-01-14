@@ -1,7 +1,10 @@
 @charset "utf-8";
-
+html {
+  margin: 0;
+}
 body  {
   background-color: #eee;
+  margin: 0;
 }
 
 main  {
@@ -32,12 +35,7 @@ button {
   margin-top: 8px;
   
 }
-/* .title {
-  display: flex;
-  gap: 8px;
-  margin-top: 8px;
-  
-} */
+
 
 .titlePic {
   width: calc( (100% - 16px) / 3 );
@@ -57,12 +55,14 @@ h1 {
   font-size: 24px;
   border-bottom: 1px solid;
   padding: 8px 16px;
-  margin-bottom: 16px;
+  margin:16px;
   background-color: #fff;
   border: solid black 1px;
   user-select: none;
 }
-
+section {
+  margin: 0 16px;
+}
 h3 {
   text-align: center;
 }
