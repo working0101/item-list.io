@@ -1,6 +1,6 @@
 @charset "utf-8";
 html {
-  margin: 0;
+  margin-top: 16px;
 }
 body  {
   background-color: #eee;
@@ -13,10 +13,11 @@ main  {
   background-color: pink;
 }
 #main-imge {
-  height: 240px;
+  user-select: none;
 }
 img {
   vertical-align: bottom;
+  user-select: none;
 }
 
 button {
@@ -26,15 +27,18 @@ button {
   text-align: center;
   cursor: pointer;
   border-radius: 4px;
+  user-select: none;
   
 }
 
 .continer1 {
   display: flex;
   gap: 8px;
-  margin-top: 8px;
-  
+  margin-top: 8px;  
 }
+
+
+
 
 
 .titlePic {
@@ -50,6 +54,8 @@ button {
 .active {
   opacity: 1;
 }
+
+
 
 h1 {
   font-size: 24px;
@@ -69,13 +75,6 @@ h3 {
 
 #pear {
   background-color: bisque;
-  width: 50%;
-  margin: 0 auto 10px;
-  user-select: none;
-}
-
-#Strawberry {
-  background-color: pink;
   width: 50%;
   margin: 0 auto 10px;
   user-select: none;
@@ -106,12 +105,12 @@ dt {
 
 dt::before {
   content: '・';
-
+  
 }
 
 dt::after {
   content: '+';
-
+  
   position: absolute;
   top: 8px;
   right: 16px;
@@ -119,7 +118,7 @@ dt::after {
 }
 
 
-dl>div.appear dt::after {
+dl > div.appear dt::after {
   transform: rotate(45deg);
 }
 
@@ -144,14 +143,14 @@ dl>div.appear dd {
     opacity: 0;
     transform: translateY(-50px);
   }
-
+  
   100% {
     opacity: 1;
     transform: none;
   }
 }
 
-.continer>img {
+.continer > img {
   width: 120px;
   height: 220px;
   margin-right: 16px;
@@ -164,21 +163,36 @@ dl>div.appear dd {
 .continer>table {
   letter-spacing: 1px;
   line-height: 12px;
-  /* background-color: rgb(41, 251, 41); */
+  background-color: rgb(41, 251, 184);
 }
 
 th {
   height: 50px;
   background-color: azure;
-
+  
 }
 
 td {
   background-color: aliceblue;
   line-height: 2;
   text-align: center;
-
+  
 }
+
+#Strawberry {
+  background-color: pink;
+  width: 50%;
+  margin: 0 auto 10px;
+  user-select: none;
+}
+
+.Strawberry-img > img{
+  width: 150px;
+  height: 200px;
+  display: flex;
+  
+}
+
 
 @media (max-width: 799px) {
   th {
