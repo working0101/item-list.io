@@ -5,7 +5,7 @@ html {
 }
 body  {
   /* backgroundをグラデーションにする */
-  background:linear-gradient( #eee,#9df5f6,#0ce2fa);
+  background:linear-gradient( -20deg, #eee,#9df5f6,#0ce2fa);
   margin: 0;
 }
 
@@ -76,7 +76,7 @@ h3 {
 }
 
 #pear {
-  background-color: bisque;
+  background: linear-gradient(20deg,  #d2fac4,#b6f22a) ;
   border-radius: 16px;
   width: 50%;
   margin: 0 auto 10px;
@@ -183,7 +183,7 @@ td {
 }
 
 #Strawberry {
-  background-color: deeppink;
+  background: linear-gradient(20deg,#f8c8e1, #ff1493 );
   width: 50%;
   margin: 0 auto 10px;
   user-select: none;
@@ -198,7 +198,7 @@ td {
 }
 
 #Citrus {
-  background-color: orange;
+  background: linear-gradient(20deg, #f7e5c5, #ffa500);
   width: 50%;
   margin: 0 auto 10px;
   user-select: none;
