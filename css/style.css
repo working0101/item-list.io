@@ -1,19 +1,24 @@
 @charset "utf-8";
 html {
   margin-top: 16px;
+  background: #eee;
 }
 body  {
-  background-color: #eee;
+  /* backgroundをグラデーションにする */
+  background:linear-gradient( #eee,#9df5f6,#0ce2fa);
   margin: 0;
 }
 
 main  {
   width: 360px;
   margin: 0 auto;
-  background-color: pink;
+  /* background-color: pink; */
+  border-radius: 8px;
 }
 #main-imge {
   user-select: none;
+  border-radius: 50%;
+  border: solid black 1px;
 }
 img {
   vertical-align: bottom;
@@ -23,7 +28,7 @@ img {
 button {
   all:unset;
   width: calc(100% /2);
-  border: 1px solid gray;
+  border: 1px solid black;
   text-align: center;
   cursor: pointer;
   border-radius: 4px;
@@ -42,10 +47,10 @@ button {
 
 
 .titlePic {
-  width: calc( (100% - 16px) / 3 );
+  width: calc( (100% - 24px) / 4 );
   cursor: pointer;
   opacity: .4;
-  border: solid 3px slategray;
+  border: solid 1px slategray;
   border-radius: 15%;
   box-sizing: border-box;
 
@@ -59,11 +64,8 @@ button {
 
 h1 {
   font-size: 24px;
-  border-bottom: 1px solid;
   padding: 8px 16px;
   margin:16px;
-  background-color: #fff;
-  border: solid black 1px;
   user-select: none;
 }
 section {
@@ -75,6 +77,7 @@ h3 {
 
 #pear {
   background-color: bisque;
+  border-radius: 16px;
   width: 50%;
   margin: 0 auto 10px;
   user-select: none;
@@ -180,10 +183,11 @@ td {
 }
 
 #Strawberry {
-  background-color: pink;
+  background-color: deeppink;
   width: 50%;
   margin: 0 auto 10px;
   user-select: none;
+  border-radius: 16px;
 }
 
 .Strawberry-img > img{
@@ -192,6 +196,15 @@ td {
   display: flex;
   
 }
+
+#Citrus {
+  background-color: orange;
+  width: 50%;
+  margin: 0 auto 10px;
+  user-select: none;
+  border-radius: 16px;
+}
+
 
 
 @media (max-width: 799px) {
