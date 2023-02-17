@@ -10,7 +10,7 @@
 
 
   next.addEventListener('click', () => {
-    titlePics.forEach(element => {
+    titlePics.forEach(() => {
       titlePics[activeIndex].classList.remove('active')
     }); 
     activeIndex++;
@@ -23,7 +23,7 @@
   });
   
   prev.addEventListener('click', () => {
-    titlePics.forEach(element => {
+    titlePics.forEach(() => {
       titlePics[activeIndex].classList.remove('active')
     });
     if (activeIndex === 0 ) {
@@ -37,14 +37,6 @@
   
   
     
-
-  // titlePics[1].addEventListener('click', () => {
-  //   mainImge.src = titlePics[1].src;
-  //   titlePics[1].classList.add('active');
-  //   titlePics[0].classList.remove('active')
-  // });
-
-
 
 // accordion
 

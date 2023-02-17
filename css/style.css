@@ -1,12 +1,14 @@
 @charset "utf-8";
-/* html {
-margin-top: 100px;
-} */
+html {
+margin: 0 8px;
+background-color: #fff;
+}
 
 body  {
   /* backgroundをグラデーションにする */
-  background:linear-gradient( -40deg, #eee,#9df5f6,#04dff8);
-  margin: 0;
+  background:linear-gradient( -40deg, #e1150a48,#edf69d86,#04e0f880);
+  margin: 0 ;
+  padding: 8px 0;
 }
 
 
@@ -20,6 +22,7 @@ main  {
   margin-bottom: 16px;
   user-select: none;
   border-radius: 50%;
+  object-fit: cover;
   border: solid black 1px;
 }
 img {
@@ -44,7 +47,6 @@ button {
   gap: 8px;
   margin-top: 8px;  
   width: 360px;
-  border: solid black 1px;
 }
 
 
@@ -88,7 +90,10 @@ h3 {
   user-select: none;
 }
 
-
+.pear-img {
+  width: fit-content;
+  height: 150px;
+}
 
 
 dl {
@@ -196,7 +201,8 @@ td {
 }
 
 .Strawberry-img > img{
-  width: 150px;
+  /* width: 150px; */
+  width: fit-content;
   height: 200px;
   display: flex;
   
@@ -210,6 +216,13 @@ td {
   border-radius: 16px;
 }
 
+.citrus-img > img{
+  /* width: 150px; */
+  width: fit-content;
+  height: 200px;
+  display: flex;
+  
+}
 
 
 @media (max-width: 799px) {
