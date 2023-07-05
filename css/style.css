@@ -13,7 +13,6 @@ body  {
 
 
 main  {
-
   width: 350px;
   margin: 32px auto   ;
   border-radius: 8px;
@@ -232,6 +231,10 @@ td {
   height: 100%;
   object-fit: cover;
 }
+
+
+
+
 @media (max-width : 800px) {
   body{
     margin: 0;
@@ -242,8 +245,26 @@ td {
   th {
     font-size: 14px;
   }
-
+  
   td {
     font-size: 12px;
   }
 }
+    @media (max-width : 399px ) {
+      main  {
+        width: 280px;
+        margin: 24px auto   ;
+        border-radius: 8px;
+      }
+    }
+    
+    @media (max-width : 330px ) {
+      main  {
+        width: 200px;
+        margin: 16px auto   ;
+        border-radius: 4px;
+      }
+      h1{
+        font-size: 20px;
+      }
+    }
