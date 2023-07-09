@@ -184,16 +184,16 @@ dl>div.appear dd {
 }
 
 th {
-  height: 50px;
+  height: 15px;
   background-color: azure;
-  
+  font-weight: 200;
 }
 
 td {
   background-color: aliceblue;
   line-height: 2;
   text-align: center;
-  
+  font-weight: 600;
 }
 
 .continer {
@@ -208,7 +208,7 @@ td {
   border-radius: 16px;
 }
 
-.Strawberry-img > img{
+.Up-img > img{
   /* width: 150px; */
   /* width: fit-content; */
   /* height: 200px; */
@@ -225,12 +225,15 @@ td {
   user-select: none;
   border-radius: 16px;
 }
-
-.citrus-img > img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+#FruitAssorted {
+  background: linear-gradient(20deg, #bdf9fc, #3dd2fb);
+  width: 50%;
+  margin: 0 auto 10px;
+  user-select: none;
+  border-radius: 16px;
 }
+
+
 
 
 
@@ -260,11 +263,14 @@ td {
     
     @media (max-width : 330px ) {
       main  {
-        width: 200px;
+        width: 280px;
         margin: 16px auto   ;
         border-radius: 4px;
       }
       h1{
         font-size: 20px;
       }
-    }
+      .titlePic {
+        width: calc(100%/fit-content);
+      }
+    } 
