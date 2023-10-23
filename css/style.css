@@ -1,25 +1,31 @@
 @charset "utf-8";
 html {
-margin: 0 8px;
+width: 100%;
+margin: 0;
 background-color: #fff;
 }
 
 body  {
   /* backgroundをグラデーションにする */
   background:linear-gradient( -40deg, #e1150a48,#edf69d86,#04e0f880);
-  margin: 0 100px ;
-  padding: 8px 0;
+  width: 100%;
+  /* padding: 0;
+  margin: 0; */
 }
 
+/* border: solid red 3px; */
 
 main  {
-  width: 50%;
-  margin: 32px auto   ;
+  width: 80%;
+  margin: 0 auto  ;
+  padding-top: 8px;
   border-radius: 8px;
 }
 #main-imge {
   width: 100%;
-  margin-bottom: 16px;
+  height: 80%;
+  margin-top: 8px;
+  margin-bottom: 8px;
   user-select: none;
   border-radius: 50%;
   object-fit: cover;
@@ -43,12 +49,15 @@ button {
 }
 .continer-main {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   margin-top: 8px ; 
-  /* width: 100%; */
   align-items: center;
-  
 }
+.continer-main>a {
+    width: calc(100%);
+
+  }
+
 
 .titlePic  {
   /* width: calc ((100% - 24px) / 4) ; */
@@ -210,8 +219,8 @@ td {
   /* width: fit-content; */
   /* height: 200px; */
   /* display: flex;  */ 
-  width: 100%;
-  height: 100%;
+  width: 65%;
+  height: 65%;
   object-fit: cover;
 }
 
@@ -255,39 +264,11 @@ td {
 
 
 
+/* 
+@media (min-width:600) {
+  #main-imge {
+  height: 300px;
+  }
+} */
 
-@media (max-width : 800px) {
-  body{
-    margin: 0;
-  }
-}
 
-@media (max-width: 799px) {
-  th {
-    font-size: 14px;
-  }
-  td {
-    font-size: 12px;
-  }
-}
-@media (max-width : 399px ) {
-  main  {
-    width: 280px;
-    margin: 24px auto   ;
-    border-radius: 8px;
-  }
-}
-    
-@media (max-width : 330px ) {
-  main  {
-    width: 280px;
-    margin: 16px auto   ;
-    border-radius: 4px;
-  }
-  h1{
-    font-size: 20px;
-  }
-  .titlePic {
-    width: calc(100%/fit-content);
-  }
-} 
